@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sideBar{
+    background-color: cornflowerblue;
+    color: white;
+    width: 300px;
+    height: 400px;
+    transition: .3s ease-in-out;
+    /* transform: translate(-100%); */
+
+}
+
+.sideBar ul li{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.sideBar ul{
+    margin-top: 50px;
+}
+
+.sideBar-heading{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.sideBar-heading button{
+    margin-left: 130px;
+    width: 40px;
+}
+
+.newClass{
+     transform: translate(-100%);
+}
+
+.burger{
+    position: absolute;
+    top: 30px;
+    left: 28rem;    
+}
+
+.burger button{
+    width: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: rgb(0, 134, 179);
+    }
+
+    .burger{
+        position: absolute;
+        top: 30px;
+        left: 35rem;    
+    }
+
+    .sideBar{
+        width: 400px;
+    }
+
+
+  }
+
+
+  
+@media only screen and (min-width: 800px) {
+    body {
+      background-color: rgb(0, 179, 95);
+    }
+
+    .burger{
+        position: absolute;
+        top: 30px;
+        left: 45rem;    
+    }
+
+    .sideBar{
+        width: 500px;
+    }
+
+
+
+  }
+
+
+  
+@media only screen and (min-width: 1000px) {
+    body {
+      background-color: rgb(140, 179, 0);
+    }
+
+    .burger{
+        position: absolute;
+        top: 30px;
+        left: 55rem;    
+    }
+
+    .sideBar{
+        width: 600px;
+    }
+
+
+
+  }
+
+
+  @media only screen and (min-width: 1200px) {
+    body {
+      background-color: rgb(0, 42, 179);
+    }
+
+    .burger{
+        position: absolute;
+        top: 30px;
+        left: 65rem;    
+    }
+
+    .sideBar{
+        width: 700px;
+    }
+
+
+  }
